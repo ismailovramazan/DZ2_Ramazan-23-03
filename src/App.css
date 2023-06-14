@@ -1,0 +1,61 @@
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+footer {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+
+.content {
+    width: 1280px;
+    margin: 60px auto;
+}
+
+.layoutMenu {
+    display: flex;
+    gap: 80px;
+}
+
+.ull {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.layoutMenu > li {
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: black;
+    display: inline-block;
+}
+
+.paginationBtns {
+    margin: 50px auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.paginationBtns > button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
